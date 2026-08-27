@@ -26,7 +26,7 @@ Requires [Node.js](https://nodejs.org) 18 or newer.
 ### Option A - from npm
 
 ```bash
-claude mcp add second-brain -- npx -y second-brain-mcp /abs/path/to/your/vault
+claude mcp add second-brain -- npx -y @nanthansr/second-brain-mcp /abs/path/to/your/vault
 ```
 
 That single command registers the server with Claude Code; `npx` fetches and runs the package automatically. For other clients, see the config blocks below.
@@ -50,7 +50,7 @@ Add to `claude_desktop_config.json` (Settings → Developer → Edit Config):
   "mcpServers": {
     "second-brain": {
       "command": "npx",
-      "args": ["-y", "second-brain-mcp", "/abs/path/to/your/vault"]
+      "args": ["-y", "@nanthansr/second-brain-mcp", "/abs/path/to/your/vault"]
     }
   }
 }
@@ -65,7 +65,7 @@ Add the same block to `~/.cursor/mcp.json` (or Cursor Settings → MCP → Add n
 Omit the vault argument entirely and the server serves its bundled fictional demo vault ("Alex Rivera") - useful for trying it in 30 seconds:
 
 ```bash
-claude mcp add second-brain-demo -- npx -y second-brain-mcp
+claude mcp add second-brain-demo -- npx -y @nanthansr/second-brain-mcp
 ```
 
 ## Pointing it at your Obsidian vault

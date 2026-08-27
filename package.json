@@ -1,5 +1,5 @@
 {
-  "name": "second-brain-mcp",
+  "name": "@nanthansr/second-brain-mcp",
   "version": "0.1.0",
   "description": "Read-only MCP server for any Obsidian/markdown vault. Index-first retrieval, hard page budget, path sandbox - the retrieval protocol enforced by the server, not requested in prose.",
   "type": "module",

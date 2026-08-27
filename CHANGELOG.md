@@ -17,3 +17,5 @@ All notable changes to this project are documented here. The format follows
 - Bundled fictional `sample-vault/` so the server is testable without real notes.
 - 15-check integration smoke test over a real stdio connection (`npm test`).
 - CI on Linux and Windows, Node 20 and 22.
+- Published to npm as `@nanthansr/second-brain-mcp` (the unscoped name is blocked by
+  npm's similarity rule against an existing `secondbrain-mcp`).
