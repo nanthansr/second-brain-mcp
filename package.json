@@ -1,0 +1,41 @@
+{
+  "name": "second-brain-mcp",
+  "version": "0.1.0",
+  "description": "Read-only MCP server for any Obsidian/markdown vault. Index-first retrieval, hard page budget, path sandbox - the retrieval protocol enforced by the server, not requested in prose.",
+  "type": "module",
+  "bin": {
+    "second-brain-mcp": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "sample-vault",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "npm run build && node test/smoke.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "obsidian",
+    "second-brain",
+    "knowledge-base",
+    "markdown"
+  ],
+  "author": "Nanthan (nanthansr)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^26.3.0",
+    "typescript": "^7.0.2"
+  }
+}
