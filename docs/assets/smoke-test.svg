@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="470" viewBox="0 0 780 470" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13">
+  <rect width="780" height="470" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <circle cx="24" cy="22" r="6" fill="#ff5f57"/>
+  <circle cx="44" cy="22" r="6" fill="#febc2e"/>
+  <circle cx="64" cy="22" r="6" fill="#28c840"/>
+  <text x="390" y="26" fill="#8b949e" text-anchor="middle" font-size="12">npm test - 15-check integration suite over real stdio</text>
+  <g fill="#c9d1d9">
+    <text x="28" y="60"><tspan fill="#7ee787">&#10095;</tspan> npm test</text>
+    <text x="28" y="92"><tspan fill="#7ee787">ok</tspan>   four tools registered</text>
+    <text x="28" y="114"><tspan fill="#7ee787">ok</tspan>   get_index returns catalog</text>
+    <text x="28" y="136"><tspan fill="#7ee787">ok</tspan>   search_notes finds known term</text>
+    <text x="28" y="158"><tspan fill="#7ee787">ok</tspan>   read_note reads a page</text>
+    <text x="28" y="180"><tspan fill="#7ee787">ok</tspan>   read_note reports budget</text>
+    <text x="28" y="202"><tspan fill="#7ee787">ok</tspan>   path traversal rejected</text>
+    <text x="28" y="224"><tspan fill="#7ee787">ok</tspan>   non-md rejected or missing</text>
+    <text x="28" y="246"><tspan fill="#7ee787">ok</tspan>   read within budget: wiki/people/sam-okafor.md</text>
+    <text x="28" y="268"><tspan fill="#7ee787">ok</tspan>   read within budget: wiki/projects/kite-weather-app.md</text>
+    <text x="28" y="290"><tspan fill="#7ee787">ok</tspan>   read within budget: wiki/concepts/spaced-repetition.md</text>
+    <text x="28" y="312"><tspan fill="#7ee787">ok</tspan>   read within budget: index.md</text>
+    <text x="28" y="334"><tspan fill="#7ee787">ok</tspan>   6th read refused by budget</text>
+    <text x="28" y="356"><tspan fill="#7ee787">ok</tspan>   list_recent lists pages</text>
+    <text x="28" y="378"><tspan fill="#7ee787">ok</tspan>   resource vault://index</text>
+    <text x="28" y="400"><tspan fill="#7ee787">ok</tspan>   prompt vault-retrieval</text>
+    <text x="28" y="438" fill="#7ee787" font-weight="bold">SMOKE PASS</text>
+  </g>
+</svg>

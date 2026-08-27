@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="420" viewBox="0 0 780 420" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13">
+  <rect width="780" height="420" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <circle cx="24" cy="22" r="6" fill="#ff5f57"/>
+  <circle cx="44" cy="22" r="6" fill="#febc2e"/>
+  <circle cx="64" cy="22" r="6" fill="#28c840"/>
+  <text x="390" y="26" fill="#8b949e" text-anchor="middle" font-size="12">second-brain-mcp - live session</text>
+  <g fill="#c9d1d9">
+    <text x="28" y="62"><tspan fill="#7ee787">&#10095;</tspan> using the second-brain tools, what is Alex Rivera working on</text>
+    <text x="28" y="82">  and who is Sam?</text>
+    <text x="28" y="116" fill="#79c0ff">  &#9881; get_index()                                      <tspan fill="#8b949e">index.md, 4 sections</tspan></text>
+    <text x="28" y="138" fill="#79c0ff">  &#9881; read_note("wiki/me.md")                          <tspan fill="#d29922">read 1/5</tspan></text>
+    <text x="28" y="160" fill="#79c0ff">  &#9881; read_note("wiki/projects/kite-weather-app.md")   <tspan fill="#d29922">read 2/5</tspan></text>
+    <text x="28" y="182" fill="#79c0ff">  &#9881; read_note("wiki/people/sam-okafor.md")           <tspan fill="#d29922">read 3/5</tspan></text>
+    <text x="28" y="216">  Alex Rivera (29, product engineer, Lisbon) is shipping</text>
+    <text x="28" y="238">  <tspan fill="#7ee787">Kite Weather App</tspan> - hyperlocal wind forecasts for kitesurfers.</text>
+    <text x="28" y="260">  34 beta testers, day-7 retention 38%. Open decision:</text>
+    <text x="28" y="282">  one-time price vs 4 EUR/month subscription.</text>
+    <text x="28" y="314">  <tspan fill="#7ee787">Sam Okafor</tspan> - climbing partner, senior designer, leading</text>
+    <text x="28" y="336">  cofounder candidate. Redesigned onboarding: activation</text>
+    <text x="28" y="358">  40% -&gt; 71%. Cofounder decision owed by end of September.</text>
+    <text x="28" y="392" fill="#8b949e">  index first, three budgeted reads, cited answer - the protocol as law</text>
+  </g>
+</svg>

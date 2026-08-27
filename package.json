@@ -15,7 +15,16 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "test": "npm run build && node test/smoke.mjs"
+    "test": "npm run build && node test/smoke.mjs",
+    "prepublishOnly": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanthansr/second-brain-mcp.git"
+  },
+  "homepage": "https://github.com/nanthansr/second-brain-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/nanthansr/second-brain-mcp/issues"
   },
   "keywords": [
     "mcp",
